@@ -34,9 +34,6 @@ public class Calculator {
     }
 
     public static double getSquareRoot(double value1) {
-        if (value1 == Double.POSITIVE_INFINITY){
-            throw new ArithmeticException("Double overflowed");
-        }
         return Math.sqrt(value1);
     }
 
