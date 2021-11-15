@@ -1,5 +1,7 @@
 package com.sbrf.reboot.atm.cassettes;
 
+import com.sbrf.reboot.atm.Banknote;
+import com.sbrf.reboot.atm.Cassette;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -8,9 +10,20 @@ import java.util.ArrayList;
 class CassetteTest {
 
     class OneHundred extends Banknote {
+        private final Integer oneHundred;
+
+        public  OneHundred() {
+            this.oneHundred = 100;
+        }
+
     }
 
     class OneThousand extends Banknote {
+        private final Integer oneThousand;
+
+        public OneThousand(Integer oneThousand) {
+            this.oneThousand = 1000;
+        }
     }
 
     @Test
