@@ -9,8 +9,9 @@ public class AccountRepository {
 
     private Set<Account> accounts;
 
-    public AccountRepository(){
-        accounts = new HashSet<>();
+    public AccountRepository(Set<Account> accounts)
+    {
+        this.accounts = accounts;
     }
 
     public Set<Account>  getAllAccountsByClientId(Long clientId) {
