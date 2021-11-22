@@ -14,10 +14,10 @@ public class AccountRepository {
         this.accounts = accounts;
     }
 
-    public Set<Account>  getAllAccountsByClientId(Long clientId) {
+    public Set<Account>  getAllAccountsByClientId(Long id) {
         Set<Account>  accountsByClientId= new HashSet<>();
         for (Account account: accounts) {
-            if(account.getClientID().equals(clientId)){
+            if(account.getId().equals(id)){
                 accountsByClientId.add(account);
             }
         }
