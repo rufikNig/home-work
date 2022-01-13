@@ -14,8 +14,8 @@ public class AccountService implements Service {
 
 
     @Override
-    public boolean isAccountExist(long clientID, Account account) {
-        return accountRepository.getAllAccountsByClientId(clientID).contains(account);
+    public boolean isAccountExist(long id, Account account) {
+        return accountRepository.getAllAccountsByClientId(id).contains(account);
     }
 
 }
