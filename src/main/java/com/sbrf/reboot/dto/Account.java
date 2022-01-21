@@ -1,4 +1,4 @@
-package com.sbrf.reboot;
+package com.sbrf.reboot.dto;
 
 import lombok.Data;
 

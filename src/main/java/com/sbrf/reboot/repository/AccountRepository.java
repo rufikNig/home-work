@@ -1,6 +1,6 @@
 package com.sbrf.reboot.repository;
 
-import com.sbrf.reboot.Account;
+import com.sbrf.reboot.dto.Account;
 
 import java.util.HashSet;
 import java.util.Set;

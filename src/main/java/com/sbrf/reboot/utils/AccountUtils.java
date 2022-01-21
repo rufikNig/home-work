@@ -1,6 +1,6 @@
 package com.sbrf.reboot.utils;
 
-import com.sbrf.reboot.Account;
+import com.sbrf.reboot.dto.Account;
 
 import java.util.Comparator;
 import java.util.List;
